@@ -67,7 +67,7 @@ This project is built using the **MERN stack** (**MongoDB, Express.js, React.js,
 
 Below is the **conceptual diagram** showing how different components interact:
 
-![Conceptual Diagram](./projekat/images/konceptualni_dijagram.png)
+![Conceptual Diagram](./projekat/images/conceptual_diagram.png)
 
 ### **🏗️ How the System Works**
 1. **User Interaction:** Users communicate with **Car Bot** via text or voice.
@@ -79,7 +79,7 @@ Below is the **conceptual diagram** showing how different components interact:
 
 This ensures **structured, real-time responses** to user queries.
 
-![System Workflow](./projekat/images/Projekat_nacin_rada.png)
+![System Workflow](./projekat/images/Logic.png)
 
 ---
 
@@ -89,22 +89,26 @@ This ensures **structured, real-time responses** to user queries.
 
 ```bash
 git clone https://github.com/Rale01/CarBot-AI-Assistant.git
+```
 
 ### 📦 Step 2: Install Dependencies
 ```bash
 npm install
+```
 
 ### 🔥 Step 3: Start the Server
 ```bash
 cd projekat
 cd server
 npm start
+```
 
 ### 🌍 Step 4: Start the Frontend
 ```bash
 cd projekat
 cd server
 npm start
+```
 
 ### 🛠️ Step 5: Open the Application in Your Browser
 Once both frontend and backend are running, open your browser and start chatting with Car Bot! 🚀
@@ -119,10 +123,6 @@ Once both frontend and backend are running, open your browser and start chatting
 ✔️ Fetch real-time car images from Unsplash API
 ✔️ Track stock market trends of car brands (Finhub API)
 ✔️ Real-time chatbot responses via WebSockets
-
-
-
-
 
 
 ![Pocetna stranica](./projekat/images/landing_page.png)
