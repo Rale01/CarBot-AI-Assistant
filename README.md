@@ -117,12 +117,12 @@ Once both frontend and backend are running, open your browser and start chatting
 
 ## 🏆 Features
 
-✔️ Search for cars by brand, model, and price
-✔️ Retrieve car specifications from a structured CSV dataset
-✔️ Chatbot with Natural Language Processing (Wit.ai)
-✔️ Fetch real-time car images from Unsplash API
-✔️ Track stock market trends of car brands (Finhub API)
-✔️ Real-time chatbot responses via WebSockets
+- ✔️ Search for cars by brand, model, and price
+- ✔️ Retrieve car specifications from a structured CSV dataset
+- ✔️ Chatbot with Natural Language Processing (Wit.ai)
+- ✔️ Fetch real-time car images from Unsplash API
+- ✔️ Track stock market trends of car brands (Finhub API)
+- ✔️ Real-time chatbot responses via WebSockets
 
 
 ![Pocetna stranica](./projekat/images/landing_page.png)
