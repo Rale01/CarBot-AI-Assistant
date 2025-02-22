@@ -124,8 +124,181 @@ Once both frontend and backend are running, open your browser and start chatting
 - ✔️ Track stock market trends of car brands (Finhub API)
 - ✔️ Real-time chatbot responses via WebSockets
 
+---
 
-![Pocetna stranica](./projekat/images/landing_page.png)
+# Web app showcase
 
+# 🏠 Home Page
+
+## 📜 Overview
+The **Home Page** is the first screen users see when they open the application. It provides an introduction to the platform with a visually appealing design, including a **slider with images**.
+
+## 🎯 Features
+- **Introduction** to the Car Bot Assistant.
+- **Navigation buttons** for easy access to different sections:
+  - **Find the Right Car for You**: 
+    - Redirects to the **Login Page** if the user is not logged in.
+    - Redirects to the **Chat Page** if the user is logged in.
+  - **About Us**: Navigates to the **About Us Page**.
+  - **Sign In**: Takes the user to the **Login Page**.
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture1.png)
+
+
+# ℹ️ About Us Page
+
+## 📜 Overview
+The **About Us Page** provides a detailed description of the Car Bot Assistant, including its purpose and functionalities.
+
+## 🎯 Features
+- Displays **general information** about the application.
+- Accessible to:
+  - **Guests (non-registered users)**
+  - **Logged-in users**
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture2.png)
+
+
+
+
+
+# 🔑 Login Page
+
+## 📜 Overview
+The **Login Page** allows users to access their accounts by entering their credentials.
+
+## 🎯 Features
+- Users can **log in** by providing:
+  - **Email**
+  - **Password**
+- Clicking the **Log In** button authenticates the user and redirects them to:
+  - **Chat Page** (if login is successful).
+  - **Error Message** (if credentials are incorrect).
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture3.png)
+
+
+
+
+
+
+
+# 📝 Register Page
+
+## 📜 Overview
+The **Register Page** allows new users to create an account.
+
+## 🎯 Features
+- Users must provide:
+  - **Email**
+  - **Name**
+  - **Password**
+  - **Gender**
+  - **Bio**
+  - **Avatar URL**
+- Clicking **Register** creates a new user profile.
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture4.png)
+
+
+
+# 👤 User Profile Page
+
+## 📜 Overview
+After logging in, users can access their **Profile Page** to view and update their personal information.
+
+## 🎯 Features
+- View user details.
+- **Update profile picture** and **bio** via a pop-up modal.
+- Access the **Chat Page** to interact with the AI.
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture5.png)
+
+
+
+# 💬 Chat Page
+
+## 📜 Overview
+The **Chat Page** allows users to interact with Car Bot in **real-time** using **text or voice input**.
+
+## 🎯 Features
+- **Real-time messaging** using **Socket.io**.
+- Users can send messages via:
+  - **Keyboard (Text Input)**
+  - **Microphone (Voice Input)**
+- AI responds dynamically using **Wit.ai**.
+- AI-generated responses may include:
+  - **Text responses**
+  - **Images (Unsplash API integration)**
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture7.png)
+
+
+
+# 🛠️ Admin Dashboard
+
+## 📜 Overview
+When an **Admin User** logs in, they see a **different home page layout** with access to administrative controls.
+
+## 🎯 Features
+- **Access to User Management Table**.
+- Can **search**, **sort**, and **filter users**:
+  - Search by **user name**.
+  - Sort by **number of messages**.
+  - Filter by **gender**.
+- Ability to:
+  - **Edit user email & name**.
+  - **Delete user profiles**.
+  - **Export user data** to **CSV format**.
+- Built-in **pagination** for large datasets.
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture8.png)
+
+
+
+# 📊 User Management Table (Admin)
+
+## 📜 Overview
+The **User Management Table** provides **administrators** with a structured view of all registered users.
+
+## 🎯 Features
+- **Search, Sort & Filter** Users:
+  - Search by **user name**.
+  - Sort by **number of messages**.
+  - Filter by **gender**.
+- **Manage User Accounts:**
+  - **Edit user email & name**.
+  - **Delete user profiles**.
+  - **Export data** to **CSV format**.
+- **Pagination** for improved navigation.
+
+## 🖼️ Screenshot
+![Pocetna stranica](./projekat/images/Picture9.png)
+
+
+
+# 📈 Data Insights Page
+
+## 📜 Overview
+The **Data Insights Page** allows administrators to visualize key data points using charts.
+
+## 🎯 Features
+- **User Demographics**:
+  - Gender distribution across registered users.
+- **User Engagement**:
+  - Number of messages exchanged with Car Bot.
+- **Car Data Analytics**:
+  - Number of car models for each brand.
+- **Stock Market Trends**:
+  - Car brand stock prices fetched from **Finhub API**.
+
+![Pocetna stranica](./projekat/images/Picture10.png)
 
 
